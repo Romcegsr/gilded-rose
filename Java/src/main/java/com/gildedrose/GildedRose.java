@@ -16,7 +16,9 @@ class GildedRose {
                         items[i].quality = items[i].quality - 1;
                     } else {
                         //Decrease quality of Conjured Mana cake
-                        items[i].quality = items[i].quality - 2;
+                        if(items[i].name.equals("Conjured Mana Cake")){
+                            items[i].quality = items[i].quality - 2;
+                        }
                     }
                 } else {
                     if (items[i].quality < 50) {
