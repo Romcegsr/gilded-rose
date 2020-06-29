@@ -31,7 +31,7 @@ class GildedRose {
                                 }
                             }
 
-                            if (items[i].sellIn < 6) {
+                            if (items[i].sellIn < 5) {
                                 if (items[i].quality < 50) {
                                     items[i].quality = items[i].quality + 3;
                                 }
